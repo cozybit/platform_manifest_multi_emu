@@ -3,8 +3,7 @@ platform_manifest_multi_emu
 
 This repo contains the manifest modifications to build a multi-emulator with traffic capturing qemu version.
 
-HOW-TO build an SDK build with multi-emulator qemu version
-==========================================================
+* HOW-TO build an SDK build with multi-emulator qemu version
 
 1) Initialize a build environment (http://source.android.com/source/initializing.html)
 2) Download and configure the repo tool (1st step at http://source.android.com/source/downloading.html)
