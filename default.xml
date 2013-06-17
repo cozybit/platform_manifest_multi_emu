@@ -4,6 +4,9 @@
   <remote  name="aosp"
            fetch=".."
            review="https://android-review.googlesource.com/" />
+  <remote name="cozy"
+           fetch="git://github.com/cozybit"
+           revision="master" />
   <default revision="master"
            remote="aosp"
            sync-j="4" />
@@ -167,7 +170,7 @@
   <project path="external/ppp" name="platform/external/ppp" />
   <project path="external/proguard" name="platform/external/proguard" groups="pdk-java" />
   <project path="external/protobuf" name="platform/external/protobuf" groups="pdk" />
-  <project path="external/qemu" name="platform/external/qemu" />
+  <project path="external/qemu" name="platform_external_qemu" remote="cozy" />
   <project path="external/qemu-pc-bios" name="platform/external/qemu-pc-bios" />
   <project path="external/quake" name="platform/external/quake" />
   <project path="external/regex-re2" name="platform/external/regex-re2" />
