@@ -18,4 +18,4 @@ HOW-TO build an SDK build with multi-emulator qemu
     `$ . build/envsetup.sh`
     `$ lunch sdk-eng`
     `$ make sdk`
-7.  If build finishes correctly you should have an SDK custom build on out/host/linux-x86/sdk/
+7.  If build finishes correctly you should have an SDK custom build on `out/host/linux-x86/sdk/`
